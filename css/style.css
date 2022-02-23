@@ -124,7 +124,7 @@ img {
 }
 /*------------ HEADER ------------*/
 #header {
-	background: #4e5944 url(../images/bg-header.jpg) repeat-x left bottom;
+	background: rgb(38, 96, 65) url(../images/bg-header.jpg) repeat-x left bottom;
 	padding: 40px 0 46px;
 }
 /** logo **/
@@ -242,7 +242,7 @@ p a:hover {
 	top: 90px;
 }
 #adbox .detail h1 {
-	color: #4e5944;
+	color: rgb(38, 96, 65);
 	font-size: 30px;
 	font-weight: normal;
 	line-height: 48px;
@@ -250,7 +250,7 @@ p a:hover {
 	text-transform: none;
 }
 #adbox .detail p {
-	color: #4e5944;
+	color: rgb(38, 96, 65);
 	font: 25px/48px "Times New Roman", Times, serif;
 	margin: 0;
 }
