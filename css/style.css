@@ -128,7 +128,7 @@ img {
 }
 /** logo **/
 .logo {
-	/* float: left; */
+	float: left;
 	display: inline-block;
 }
 /** navigation **/
@@ -241,7 +241,7 @@ p a:hover {
 	top: 90px;
 }
 #adbox .detail h1 {
-	color: rgb(38, 96, 65);
+	color: #4e5944;
 	font-size: 30px;
 	font-weight: normal;
 	line-height: 48px;
@@ -249,7 +249,7 @@ p a:hover {
 	text-transform: none;
 }
 #adbox .detail p {
-	color: rgb(38, 96, 65);
+	color: #4e5944;
 	font: 25px/48px "Times New Roman", Times, serif;
 	margin: 0;
 }
@@ -526,7 +526,19 @@ p a:hover {
 	display: block;
 	font: 13px/24px Arial, Helvetica, sans-serif;
 }
-.message input[type='text'], input[type='tel'],input[type='datetime-local'],input[type='number'] {
+.message input[type='text'],input[type='tel'],input[type='datetime-local'],input[type='number'] {
+	height: 24px;
+	width: 590px;
+	margin: 0 0 18px;
+	padding: 0 4px;
+}
+.ta {
+	height: 24px;
+	width: 590px;
+	margin: 0 0 18px;
+	padding: 0 4px;
+}
+.message input[type='text'] {
 	height: 24px;
 	width: 590px;
 	margin: 0 0 18px;
@@ -537,18 +549,20 @@ p a:hover {
 	width: 590px;
 	margin: 0 0 18px;
 	padding: 0 4px;
-	
 }
 .message input[type='radio']{
 	text-align: right;
     clear: both;
     float:left;
-    margin-right:15px;
-	
+    margin-right:0 4px;
 }
+.txta {
+	height: 200px;
+	width: 295px;
+} 
 .message textarea {
 	height: 110px;
-	width: 590px;
+	width: 295px;
 	margin: 0 0 18px;
 	padding: 0 4px;
 	overflow: auto;
