@@ -527,7 +527,19 @@ p a:hover {
 	display: block;
 	font: 13px/24px Arial, Helvetica, sans-serif;
 }
-.message input[type='text'], input[type='tel'],input[type='datetime-local'],input[type='number'] {
+.message input[type='text'],input[type='tel'],input[type='datetime-local'],input[type='number'] {
+	height: 24px;
+	width: 590px;
+	margin: 0 0 18px;
+	padding: 0 4px;
+}
+.ta {
+	height: 24px;
+	width: 590px;
+	margin: 0 0 18px;
+	padding: 0 4px;
+}
+.message input[type='text'] {
 	height: 24px;
 	width: 590px;
 	margin: 0 0 18px;
@@ -543,11 +555,15 @@ p a:hover {
 	text-align: right;
     clear: both;
     float:left;
-    margin-right:15px;
+    margin-right:0 4px;
 }
+.txta {
+	height: 200px;
+	width: 295px;
+} 
 .message textarea {
 	height: 110px;
-	width: 590px;
+	width: 295px;
 	margin: 0 0 18px;
 	padding: 0 4px;
 	overflow: auto;
