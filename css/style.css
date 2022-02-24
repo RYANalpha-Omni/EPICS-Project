@@ -1,4 +1,3 @@
-/* Website template by freewebsitetemplates.com */
 body {
 	background-color: #e2e2e2;
 	min-width: 960px;
@@ -124,7 +123,7 @@ img {
 }
 /*------------ HEADER ------------*/
 #header {
-	background: #4e5944 url(../images/bg-header.jpg) repeat-x left bottom;
+	background: rgb(38, 96, 65) repeat-x left bottom;
 	padding: 40px 0 46px;
 }
 /** logo **/
@@ -602,7 +601,7 @@ p a:hover {
 	text-transform: uppercase;
 }
 #footnote {
-	background: url(../images/bg-footnote.jpg) repeat-x left top;
+	background-color:rgb(38, 96, 65);
 	border-top: 1px solid #fff;
 	padding: 6px 0 3px;
 }
@@ -621,6 +620,7 @@ p a:hover {
 	padding: 6px 0;
 }
 #footnote .connect a {
+	color:rgb(38, 96, 65);
 	display: inline-block;
 	height: 18px;
 	width: 18px;
