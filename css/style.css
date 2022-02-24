@@ -124,12 +124,12 @@ img {
 }
 /*------------ HEADER ------------*/
 #header {
-	background: rgb(38, 96, 65) url(../images/bg-header.jpg) repeat-x left bottom;
+	background: #4e5944 url(../images/bg-header.jpg) repeat-x left bottom;
 	padding: 40px 0 46px;
 }
 /** logo **/
 .logo {
-	/* float: left; */
+	float: left;
 	display: inline-block;
 }
 /** navigation **/
@@ -242,7 +242,7 @@ p a:hover {
 	top: 90px;
 }
 #adbox .detail h1 {
-	color: rgb(38, 96, 65);
+	color: #4e5944;
 	font-size: 30px;
 	font-weight: normal;
 	line-height: 48px;
@@ -250,7 +250,7 @@ p a:hover {
 	text-transform: none;
 }
 #adbox .detail p {
-	color: rgb(38, 96, 65);
+	color: #4e5944;
 	font: 25px/48px "Times New Roman", Times, serif;
 	margin: 0;
 }
@@ -538,14 +538,12 @@ p a:hover {
 	width: 590px;
 	margin: 0 0 18px;
 	padding: 0 4px;
-	
 }
 .message input[type='radio']{
 	text-align: right;
     clear: both;
     float:left;
     margin-right:15px;
-	
 }
 .message textarea {
 	height: 110px;
